@@ -3,8 +3,9 @@ from .categories import router as categories_router
 from .sales import router as sales_router
 from .customers import router as customers_router
 from .inventory import router as inventory_router
+from .receipts import router as receipts_router
 
 __all__ = [
     "products_router", "categories_router", "sales_router", 
-    "customers_router", "inventory_router"
+    "customers_router", "inventory_router", "receipts_router"
 ]
