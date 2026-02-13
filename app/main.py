@@ -8,7 +8,7 @@ from app.routers import (
     customers_router, inventory_router, receipts_router,
     reports_router, barcode_router, promotions_router,
     loyalty_router, age_verification_router, shifts_router,
-    quick_add_router
+    quick_add_router, settings_router
 )
 from app.models import Category, Product
 
@@ -129,6 +129,7 @@ app.include_router(loyalty_router)
 app.include_router(age_verification_router)
 app.include_router(shifts_router)
 app.include_router(quick_add_router)
+app.include_router(settings_router)
 
 
 @app.get("/")
