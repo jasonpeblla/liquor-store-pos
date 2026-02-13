@@ -6,7 +6,7 @@ from app.database import engine, Base, SessionLocal
 from app.routers import (
     products_router, categories_router, sales_router,
     customers_router, inventory_router, receipts_router,
-    reports_router
+    reports_router, barcode_router
 )
 from app.models import Category, Product
 
@@ -121,6 +121,7 @@ app.include_router(customers_router)
 app.include_router(inventory_router)
 app.include_router(receipts_router)
 app.include_router(reports_router)
+app.include_router(barcode_router)
 
 
 @app.get("/")
