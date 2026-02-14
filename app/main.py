@@ -13,7 +13,8 @@ from app.routers import (
     purchase_orders_router,
     happy_hour_router,
     mix_match_router,
-    bottle_deposits_router
+    bottle_deposits_router,
+    employees_router
 )
 from app.models import Category, Product
 
@@ -141,6 +142,7 @@ app.include_router(purchase_orders_router)
 app.include_router(happy_hour_router)
 app.include_router(mix_match_router)
 app.include_router(bottle_deposits_router)
+app.include_router(employees_router)
 
 
 @app.get("/")
