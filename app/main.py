@@ -22,7 +22,8 @@ from app.routers import (
     dashboard_router,
     wine_vintages_router,
     craft_beer_router,
-    gift_cards_router
+    gift_cards_router,
+    tasting_events_router
 )
 from app.models import Category, Product
 
@@ -159,6 +160,7 @@ app.include_router(dashboard_router)
 app.include_router(wine_vintages_router)
 app.include_router(craft_beer_router)
 app.include_router(gift_cards_router)
+app.include_router(tasting_events_router)
 
 
 @app.get("/")
