@@ -10,5 +10,6 @@ from .feedback import Feedback
 from .supplier import Supplier
 from .purchase_order import PurchaseOrder, PurchaseOrderItem
 from .happy_hour import HappyHour
+from .mix_match import MixMatchDeal
 
-__all__ = ["Product", "Category", "Sale", "SaleItem", "Customer", "Promotion", "AgeVerification", "Shift", "Feedback", "Supplier", "PurchaseOrder", "PurchaseOrderItem", "HappyHour"]
+__all__ = ["Product", "Category", "Sale", "SaleItem", "Customer", "Promotion", "AgeVerification", "Shift", "Feedback", "Supplier", "PurchaseOrder", "PurchaseOrderItem", "HappyHour", "MixMatchDeal"]

@@ -16,6 +16,7 @@ from .feedback import router as feedback_router
 from .suppliers import router as suppliers_router
 from .purchase_orders import router as purchase_orders_router
 from .happy_hour import router as happy_hour_router
+from .mix_match import router as mix_match_router
 
 __all__ = [
     "products_router", "categories_router", "sales_router", 
@@ -25,5 +26,6 @@ __all__ = [
     "quick_add_router", "settings_router", "feedback_router",
     "suppliers_router",
     "purchase_orders_router",
-    "happy_hour_router"
+    "happy_hour_router",
+    "mix_match_router"
 ]
