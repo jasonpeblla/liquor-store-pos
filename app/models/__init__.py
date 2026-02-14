@@ -17,5 +17,6 @@ from .reservation import Reservation
 from .tasting_note import TastingNote, ProductReview
 from .quantity_limit import QuantityLimit, QuantityLimitViolation
 from .wine_vintage import WineVintage, WineClubMember
+from .craft_beer import Keg, GrowlerFill, TapRotation
 
-__all__ = ["Product", "Category", "Sale", "SaleItem", "Customer", "Promotion", "AgeVerification", "Shift", "Feedback", "Supplier", "PurchaseOrder", "PurchaseOrderItem", "HappyHour", "MixMatchDeal", "BottleDepositConfig", "BottleReturn", "ProductDeposit", "Employee", "Reservation", "TastingNote", "ProductReview", "QuantityLimit", "QuantityLimitViolation", "WineVintage", "WineClubMember"]
+__all__ = ["Product", "Category", "Sale", "SaleItem", "Customer", "Promotion", "AgeVerification", "Shift", "Feedback", "Supplier", "PurchaseOrder", "PurchaseOrderItem", "HappyHour", "MixMatchDeal", "BottleDepositConfig", "BottleReturn", "ProductDeposit", "Employee", "Reservation", "TastingNote", "ProductReview", "QuantityLimit", "QuantityLimitViolation", "WineVintage", "WineClubMember", "Keg", "GrowlerFill", "TapRotation"]

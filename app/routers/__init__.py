@@ -25,6 +25,7 @@ from .tasting_notes import router as tasting_notes_router
 from .quantity_limits import router as quantity_limits_router
 from .dashboard import router as dashboard_router
 from .wine_vintages import router as wine_vintages_router
+from .craft_beer import router as craft_beer_router
 
 __all__ = [
     "products_router", "categories_router", "sales_router", 
@@ -43,5 +44,6 @@ __all__ = [
     "tasting_notes_router",
     "quantity_limits_router",
     "dashboard_router",
-    "wine_vintages_router"
+    "wine_vintages_router",
+    "craft_beer_router"
 ]
