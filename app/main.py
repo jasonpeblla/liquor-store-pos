@@ -14,7 +14,8 @@ from app.routers import (
     happy_hour_router,
     mix_match_router,
     bottle_deposits_router,
-    employees_router
+    employees_router,
+    compliance_router
 )
 from app.models import Category, Product
 
@@ -143,6 +144,7 @@ app.include_router(happy_hour_router)
 app.include_router(mix_match_router)
 app.include_router(bottle_deposits_router)
 app.include_router(employees_router)
+app.include_router(compliance_router)
 
 
 @app.get("/")
