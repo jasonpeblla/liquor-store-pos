@@ -14,6 +14,7 @@ from .quick_add import router as quick_add_router
 from .settings import router as settings_router
 from .feedback import router as feedback_router
 from .suppliers import router as suppliers_router
+from .purchase_orders import router as purchase_orders_router
 
 __all__ = [
     "products_router", "categories_router", "sales_router", 
@@ -21,5 +22,6 @@ __all__ = [
     "reports_router", "barcode_router", "promotions_router",
     "loyalty_router", "age_verification_router", "shifts_router",
     "quick_add_router", "settings_router", "feedback_router",
-    "suppliers_router"
+    "suppliers_router",
+    "purchase_orders_router"
 ]

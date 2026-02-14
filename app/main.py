@@ -9,7 +9,8 @@ from app.routers import (
     reports_router, barcode_router, promotions_router,
     loyalty_router, age_verification_router, shifts_router,
     quick_add_router, settings_router, feedback_router,
-    suppliers_router
+    suppliers_router,
+    purchase_orders_router
 )
 from app.models import Category, Product
 
@@ -133,6 +134,7 @@ app.include_router(quick_add_router)
 app.include_router(settings_router)
 app.include_router(feedback_router)
 app.include_router(suppliers_router)
+app.include_router(purchase_orders_router)
 
 
 @app.get("/")
