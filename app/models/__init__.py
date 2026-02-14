@@ -24,5 +24,9 @@ from .delivery import DeliveryOrder, DeliveryZone
 from .spirits_profile import CustomerTasteProfile, ProductRecommendation
 from .price_rules import PriceRule, VolumeDiscount, BundlePrice
 from .inventory_alert import InventoryAlert, AlertRule, InventorySnapshot
+from .cash_drawer import CashDrawer, CashMovement, SafeDrop
+from .tax_exemption import TaxExemptCustomer, TaxExemptSale
+from .product_label import LabelTemplate, LabelPrintJob, ShelfTag
+from .store_hours import StoreHours, HolidayHours, AlcoholSaleRestriction
 
 __all__ = ["Product", "Category", "Sale", "SaleItem", "Customer", "Promotion", "AgeVerification", "Shift", "Feedback", "Supplier", "PurchaseOrder", "PurchaseOrderItem", "HappyHour", "MixMatchDeal", "BottleDepositConfig", "BottleReturn", "ProductDeposit", "Employee", "Reservation", "TastingNote", "ProductReview", "QuantityLimit", "QuantityLimitViolation", "WineVintage", "WineClubMember", "Keg", "GrowlerFill", "TapRotation", "GiftCard", "GiftCardTransaction"]

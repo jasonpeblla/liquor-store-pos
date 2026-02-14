@@ -32,6 +32,10 @@ from .delivery import router as delivery_router
 from .taste_profile import router as taste_profile_router
 from .price_rules import router as price_rules_router
 from .inventory_alerts import router as inventory_alerts_router
+from .cash_drawer import router as cash_drawer_router
+from .tax_exemption import router as tax_exemption_router
+from .product_labels import router as product_labels_router
+from .store_hours import router as store_hours_router
 
 __all__ = [
     "products_router", "categories_router", "sales_router", 
@@ -57,5 +61,9 @@ __all__ = [
     "delivery_router",
     "taste_profile_router",
     "price_rules_router",
-    "inventory_alerts_router"
+    "inventory_alerts_router",
+    "cash_drawer_router",
+    "tax_exemption_router",
+    "product_labels_router",
+    "store_hours_router"
 ]

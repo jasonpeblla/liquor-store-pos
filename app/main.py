@@ -27,7 +27,11 @@ from app.routers import (
     delivery_router,
     taste_profile_router,
     price_rules_router,
-    inventory_alerts_router
+    inventory_alerts_router,
+    cash_drawer_router,
+    tax_exemption_router,
+    product_labels_router,
+    store_hours_router
 )
 from app.models import Category, Product
 
@@ -169,6 +173,10 @@ app.include_router(delivery_router)
 app.include_router(taste_profile_router)
 app.include_router(price_rules_router)
 app.include_router(inventory_alerts_router)
+app.include_router(cash_drawer_router)
+app.include_router(tax_exemption_router)
+app.include_router(product_labels_router)
+app.include_router(store_hours_router)
 
 
 @app.get("/")
