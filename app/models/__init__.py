@@ -15,5 +15,6 @@ from .bottle_deposit import BottleDepositConfig, BottleReturn, ProductDeposit
 from .employee import Employee
 from .reservation import Reservation
 from .tasting_note import TastingNote, ProductReview
+from .quantity_limit import QuantityLimit, QuantityLimitViolation
 
-__all__ = ["Product", "Category", "Sale", "SaleItem", "Customer", "Promotion", "AgeVerification", "Shift", "Feedback", "Supplier", "PurchaseOrder", "PurchaseOrderItem", "HappyHour", "MixMatchDeal", "BottleDepositConfig", "BottleReturn", "ProductDeposit", "Employee", "Reservation", "TastingNote", "ProductReview"]
+__all__ = ["Product", "Category", "Sale", "SaleItem", "Customer", "Promotion", "AgeVerification", "Shift", "Feedback", "Supplier", "PurchaseOrder", "PurchaseOrderItem", "HappyHour", "MixMatchDeal", "BottleDepositConfig", "BottleReturn", "ProductDeposit", "Employee", "Reservation", "TastingNote", "ProductReview", "QuantityLimit", "QuantityLimitViolation"]
