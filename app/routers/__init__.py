@@ -29,6 +29,9 @@ from .craft_beer import router as craft_beer_router
 from .gift_cards import router as gift_cards_router
 from .tasting_events import router as tasting_events_router
 from .delivery import router as delivery_router
+from .taste_profile import router as taste_profile_router
+from .price_rules import router as price_rules_router
+from .inventory_alerts import router as inventory_alerts_router
 
 __all__ = [
     "products_router", "categories_router", "sales_router", 
@@ -51,5 +54,8 @@ __all__ = [
     "craft_beer_router",
     "gift_cards_router",
     "tasting_events_router",
-    "delivery_router"
+    "delivery_router",
+    "taste_profile_router",
+    "price_rules_router",
+    "inventory_alerts_router"
 ]
