@@ -36,6 +36,11 @@ from .cash_drawer import router as cash_drawer_router
 from .tax_exemption import router as tax_exemption_router
 from .product_labels import router as product_labels_router
 from .store_hours import router as store_hours_router
+from .returns import router as returns_router
+from .vendor_invoices import router as vendor_invoices_router
+from .audit_log import router as audit_log_router
+from .system_health import router as system_health_router
+from .seasonal_promos import router as seasonal_promos_router
 
 __all__ = [
     "products_router", "categories_router", "sales_router", 
@@ -65,5 +70,10 @@ __all__ = [
     "cash_drawer_router",
     "tax_exemption_router",
     "product_labels_router",
-    "store_hours_router"
+    "store_hours_router",
+    "returns_router",
+    "vendor_invoices_router",
+    "audit_log_router",
+    "system_health_router",
+    "seasonal_promos_router"
 ]

@@ -28,5 +28,9 @@ from .cash_drawer import CashDrawer, CashMovement, SafeDrop
 from .tax_exemption import TaxExemptCustomer, TaxExemptSale
 from .product_label import LabelTemplate, LabelPrintJob, ShelfTag
 from .store_hours import StoreHours, HolidayHours, AlcoholSaleRestriction
+from .return_policy import ReturnPolicy, ProductReturn, Exchange
+from .vendor_invoice import VendorInvoice, VendorInvoiceItem, VendorPayment
+from .audit_log import AuditLog, PriceChangeLog, LoginAttempt
+from .seasonal_promo import SeasonalPromotion, SeasonalBundle
 
 __all__ = ["Product", "Category", "Sale", "SaleItem", "Customer", "Promotion", "AgeVerification", "Shift", "Feedback", "Supplier", "PurchaseOrder", "PurchaseOrderItem", "HappyHour", "MixMatchDeal", "BottleDepositConfig", "BottleReturn", "ProductDeposit", "Employee", "Reservation", "TastingNote", "ProductReview", "QuantityLimit", "QuantityLimitViolation", "WineVintage", "WineClubMember", "Keg", "GrowlerFill", "TapRotation", "GiftCard", "GiftCardTransaction"]

@@ -31,7 +31,12 @@ from app.routers import (
     cash_drawer_router,
     tax_exemption_router,
     product_labels_router,
-    store_hours_router
+    store_hours_router,
+    returns_router,
+    vendor_invoices_router,
+    audit_log_router,
+    system_health_router,
+    seasonal_promos_router
 )
 from app.models import Category, Product
 
@@ -177,6 +182,11 @@ app.include_router(cash_drawer_router)
 app.include_router(tax_exemption_router)
 app.include_router(product_labels_router)
 app.include_router(store_hours_router)
+app.include_router(returns_router)
+app.include_router(vendor_invoices_router)
+app.include_router(audit_log_router)
+app.include_router(system_health_router)
+app.include_router(seasonal_promos_router)
 
 
 @app.get("/")
