@@ -20,6 +20,7 @@ from .mix_match import router as mix_match_router
 from .bottle_deposits import router as bottle_deposits_router
 from .employees import router as employees_router
 from .compliance import router as compliance_router
+from .reservations import router as reservations_router
 
 __all__ = [
     "products_router", "categories_router", "sales_router", 
@@ -33,5 +34,6 @@ __all__ = [
     "mix_match_router",
     "bottle_deposits_router",
     "employees_router",
-    "compliance_router"
+    "compliance_router",
+    "reservations_router"
 ]

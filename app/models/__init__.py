@@ -13,5 +13,6 @@ from .happy_hour import HappyHour
 from .mix_match import MixMatchDeal
 from .bottle_deposit import BottleDepositConfig, BottleReturn, ProductDeposit
 from .employee import Employee
+from .reservation import Reservation
 
-__all__ = ["Product", "Category", "Sale", "SaleItem", "Customer", "Promotion", "AgeVerification", "Shift", "Feedback", "Supplier", "PurchaseOrder", "PurchaseOrderItem", "HappyHour", "MixMatchDeal", "BottleDepositConfig", "BottleReturn", "ProductDeposit", "Employee"]
+__all__ = ["Product", "Category", "Sale", "SaleItem", "Customer", "Promotion", "AgeVerification", "Shift", "Feedback", "Supplier", "PurchaseOrder", "PurchaseOrderItem", "HappyHour", "MixMatchDeal", "BottleDepositConfig", "BottleReturn", "ProductDeposit", "Employee", "Reservation"]
