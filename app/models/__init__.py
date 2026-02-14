@@ -7,5 +7,6 @@ from .promotion import Promotion
 from .age_verification import AgeVerification
 from .shift import Shift
 from .feedback import Feedback
+from .supplier import Supplier
 
-__all__ = ["Product", "Category", "Sale", "SaleItem", "Customer", "Promotion", "AgeVerification", "Shift", "Feedback"]
+__all__ = ["Product", "Category", "Sale", "SaleItem", "Customer", "Promotion", "AgeVerification", "Shift", "Feedback", "Supplier"]
